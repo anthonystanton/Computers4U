@@ -7,5 +7,5 @@
 **Desktop first, single-page website**
 
 * Developed using HTML and Sass
-* Flexbox used and responsive
+* Flexbox used and is also responsive
 * Aimed to build a website that uses reusable code

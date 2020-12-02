@@ -27,6 +27,11 @@ html {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 800px) {
+  .section-one {
+    background-attachment: scroll;
+  }
+}
 
 .middle-text {
   background-color: black;
@@ -195,6 +200,11 @@ html {
   flex-direction: column;
   justify-content: space-evenly;
 }
+@media (max-width: 800px) {
+  .working-steps {
+    width: 100%;
+  }
+}
 
 .iphone-picture img {
   max-width: 80%;
@@ -318,6 +328,11 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+@media (max-width: 800px) {
+  .section-five {
+    background-attachment: scroll;
+  }
+}
 
 .customer-heading {
   text-align: center;
@@ -419,7 +434,7 @@ html {
 }
 @media (max-width: 800px) {
   .sign-up-box {
-    width: 40%;
+    width: 70%;
   }
 }
 .sign-up-box div {
@@ -481,7 +496,7 @@ div ul li {
 }
 @media (max-width: 800px) {
   .premium-box {
-    width: calc(100%/3 * 2);
+    width: calc(80%);
     margin: 20px auto;
   }
 }

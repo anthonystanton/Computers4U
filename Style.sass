@@ -32,6 +32,8 @@ html
     display: flex
     justify-content: center
     align-items: center
+    @include respond(phone)
+        background-attachment: scroll
 
 
 .middle-text
@@ -174,6 +176,8 @@ html
     display: flex
     flex-direction: column
     justify-content: space-evenly
+    @include respond(phone)
+        width: 100%
 
 
 .iphone-picture img
@@ -273,6 +277,8 @@ html
     background-position: center
     background-repeat: no-repeat
     background-attachment: fixed
+    @include respond(phone)
+        background-attachment: scroll
 
 .customer-heading
     text-align: center
@@ -354,7 +360,7 @@ html
     width: 33.33%
     box-shadow: 0px 20px 20px #a1a1a1
     @include respond(phone)
-        width: 40%
+        width: 70%
     div
         padding: 10px
         border-bottom: 2px solid #4e4e4e
@@ -402,7 +408,7 @@ div ul
 .premium-box
     width: 43%
     @include respond(phone)
-        width: calc(100%/3 * 2)
+        width: calc(80%)
         margin: 20px auto
     margin: 0px 10px
     .plan-type
